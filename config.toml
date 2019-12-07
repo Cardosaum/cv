@@ -35,7 +35,7 @@ enableGitInfo = false
   # TODO: organizations = [ { name = "UCR Particle Theory", url = "http://theory.ucr.edu" } ]
 
   gravatar = false  # Get your avatar from Gravatar.com? (true/false)
-  avatar = "profile/foto_perfil_matheus_bsb.jpeg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
+  avatar = "/profile/foto_perfil_matheus_bsb.jpeg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
   # email = "flip@example.org"
   email1 = "190018062" # using cryptedmail
   email2 = "aluno.unb" # using cryptedmail
@@ -73,7 +73,7 @@ enableGitInfo = false
   custom_js  = ['jquery-2.2.0.min.js', 'slick.js', 'flipslick.js']
 
   # FOOTER PARAMETERS
-  footmark = "layout/feynmanfooter.png"
+  footmark = "/layout/feynmanfooter.png"
   stacklogo = "logo/unb.png"
   legalblurb = "All opinions expressed here are my own and do not necessarily represent those of any other agencies or groups."
 
