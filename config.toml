@@ -1,4 +1,4 @@
-publishDir = "../www2019/flip" # relative to project root
+publishDir = "/www2019/matheus" # relative to project root
 baseurl = "/"
 title = "Matheus"
 copyright = "&copy; 2019 Matheus Cardoso<br/>Hosted on [GitHub](https://github.com/cardosaum)."
