@@ -62,6 +62,7 @@ preresearchblurb = "![Example](img/research/attila_cover.jpg)"
 
 +++
 
+TODO: Write about currently research being developed. And, of course, resize Attila image
 
 <!-- ## Current Research Foci -->
 <!--
