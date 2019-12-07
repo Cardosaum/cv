@@ -1,6 +1,6 @@
 [build]
   publish = "www2019/matheus"
-  command = "hugo server"
+  command = "hugo"
 
 [context.production.environment]
   HUGO_VERSION = "0.52"
