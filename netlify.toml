@@ -1,5 +1,5 @@
 [build]
-  publish = "public"
+  publish = "www2019/matheus"
   command = "hugo"
 
 [context.production.environment]
