@@ -46,6 +46,9 @@ weight = 1
 
 +++
 
-**Matheus Cardoso spends a lot of time thinking about dark matter.**
+**Matheus Cardoso has a lot of fun solving biological problems through programming.**
 
-He grew up in Los Angeles and fell in love with physics after reading *The Physics of Star Trek*. This carried into degrees in mathematics and physics at Stanford, Cambridge, Durham, and a Ph.D at Cornell. After a postdoc at UC Irvine, he is currently faculty at UC Riverside where he is known for being covered in chalk dust after a long day's work.
+TODO: Write a self discription
+
+<!-- He grew up in Los Angeles and fell in love with physics after reading *The Physics of Star Trek*. This carried into degrees in mathematics and physics at Stanford, Cambridge, Durham, and a Ph.D at Cornell. After a postdoc at UC Irvine, he is currently faculty at UC Riverside where he is known for being covered in chalk dust after a long day's work.
+ -->
