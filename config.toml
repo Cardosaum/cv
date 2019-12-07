@@ -35,7 +35,7 @@ enableGitInfo = false
   # TODO: organizations = [ { name = "UCR Particle Theory", url = "http://theory.ucr.edu" } ]
 
   gravatar = false  # Get your avatar from Gravatar.com? (true/false)
-  avatar = "profile/foto_perfil_matheus_bsb.jpeg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
+  avatar = "img/profile/foto_perfil_matheus_bsb.jpeg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
   # email = "flip@example.org"
   email1 = "190018062" # using cryptedmail
   email2 = "aluno.unb" # using cryptedmail
