@@ -1,4 +1,4 @@
-# publishDir = "/www2019/matheus" # relative to project root
+publishDir = "/www2019/matheus" # relative to project root
 baseurl = "/"
 title = "Matheus"
 copyright = "&copy; 2019 Matheus Cardoso<br/>Hosted on [GitHub](https://github.com/cardosaum)."
@@ -78,7 +78,7 @@ enableGitInfo = false
   legalblurb = "All opinions expressed here are my own and do not necessarily represent those of any other agencies or groups."
 
   # HEADER PARAMETERS
-  watermark = "static/img/background/dna.jpeg"
+  watermark = "background/dna.jpeg"
 
 
   # Social/Academic Networking
