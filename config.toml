@@ -78,8 +78,7 @@ enableGitInfo = false
   legalblurb = "All opinions expressed here are my own and do not necessarily represent those of any other agencies or groups."
 
   # HEADER PARAMETERS
-  watermark = "profile/dna.jpeg"
-  # watermark = "background/dna.jpeg"
+  watermark = "background/dna.jpeg"
 
 
   # Social/Academic Networking
