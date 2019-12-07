@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Homes on Matheus</title>
+    <link>/home/</link>
+    <description>Recent content in Homes on Matheus</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2019 Matheus Cardoso&lt;br/&gt;Hosted on [GitHub](https://github.com/cardosaum).</copyright>
+    <lastBuildDate>Sat, 14 Oct 2017 23:00:00 -0300</lastBuildDate>
+    
+	<atom:link href="/home/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>/home/hero_carousel/</link>
+      <pubDate>Sat, 14 Oct 2017 23:00:00 -0300</pubDate>
+      
+      <guid>/home/hero_carousel/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dark Matter</title>
+      <link>/home/hero/</link>
+      <pubDate>Sat, 14 Oct 2017 23:00:00 -0300</pubDate>
+      
+      <guid>/home/hero/</guid>
+      <description>The highly flexible website framework for Hugo with an extensible plugin mechanism. Create a beautifully simple site in under 10 minutes 🚀</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/home/about/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -0300</pubDate>
+      
+      <guid>/home/about/</guid>
+      <description>Matheus Cardoso spends a lot of time thinking about dark matter.
+He grew up in Los Angeles and fell in love with physics after reading The Physics of Star Trek. This carried into degrees in mathematics and physics at Stanford, Cambridge, Durham, and a Ph.D at Cornell. After a postdoc at UC Irvine, he is currently faculty at UC Riverside where he is known for being covered in chalk dust after a long day&amp;rsquo;s work.</description>
+    </item>
+    
+    <item>
+      <title>CV</title>
+      <link>/home/cv/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -0300</pubDate>
+      
+      <guid>/home/cv/</guid>
+      <description>Matheus Cardoso is an biotechnolgy student at the University of Brasilia, Federal District, Brazil. He currently internships in the bioinformatics laboratory of the university&amp;rsquo;s cell biology department. His research seeks to develop software that analyzes phage display libraries and returns, as a result, the most efficiently enriched antibodies, thus providing tools for future research in vaccine development.</description>
+    </item>
+    
+    <item>
+      <title>Research</title>
+      <link>/home/research/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -0300</pubDate>
+      
+      <guid>/home/research/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Teaching</title>
+      <link>/home/teaching/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -0300</pubDate>
+      
+      <guid>/home/teaching/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Public</title>
+      <link>/home/engagement/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -0300</pubDate>
+      
+      <guid>/home/engagement/</guid>
+      <description> Tweets by Flip Tanedo   Appearances  UCR Magazine 11/21/2018 Science Friday [SciFri Bio] 06/08/2018 Interview with Space.com 05/30/18 NOVA Wonders 04/04/18 Panel Discussion at Harvey Mudd 04/30/2018 Generation: First [pdf] UCR Magazine, Win. 2018 (Vol 13, No. 1) Science News, 2013  </description>
+    </item>
+    
+    <item>
+      <title>Team</title>
+      <link>/home/students/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -0300</pubDate>
+      
+      <guid>/home/students/</guid>
+      <description>Prospective graduate students should review these lectures.
+I am currently not taking new PhD students, but welcome inquiries about joining the UCR Particle Theory Group. We are committed to inclusion and I especially encourage women and under-represented minorities to consider our group.</description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>/home/contact/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -0300</pubDate>
+      
+      <guid>/home/contact/</guid>
+      <description>Availability  -- </description>
+    </item>
+    
+  </channel>
+</rss>
