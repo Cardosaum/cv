@@ -1,6 +1,7 @@
 <!-- FLIP 2019 -->
 <!-- hacking to add watermark -->
-<div id="watermark" style="background-image:url('{{ $.Site.BaseURL }}/img/{{ .Site.Params.watermark }}');"></div>
+<!-- # TODO: changed `background-image:url` -->
+<div id="watermark" style="background-image:url(/img/{{ .Site.Params.watermark }});"></div>
 <!-- hacking breakpoint for navbar -->
 <nav class="navbar navbar-flip navbar-light fixed-top navbar-expand-md py-0" id="navbar-main">
 <!-- <nav class="navbar navbar-light fixed-top navbar-expand-lg py-0" id="navbar-main"> -->
@@ -122,18 +123,4 @@
 
 <!-- FLIP 2019 -->
 <div id="THECONTENT"> <!-- closed in footer_container.html; see flip2019.css -->
-<!-- <p><a href="{{ $.Site.BaseURL }}/img/{{ .Site.Params.watermark }}">Visit W3Schools.com!</a></p>
-<p><a href="'{{ $.Site.BaseURL }}/img/{{ .Site.Params.watermark }}'">Visit W3Schools.com!</a></p>
-<p><a href="'{{ $.Site.BaseURL }}'/img/{{ .Site.Params.watermark }}">Visit W3Schools.com!</a></p> -->
-<p><a href="/img/{{ .Site.Params.watermark }}">Visit W3Schools.com!</a></p>
-<!-- <p><a href="//img/{{ .Site.Params.watermark }}">Visit W3Schools.com!</a></p>
-<p><a href="5dec1372ec88970008a9d62e--mcscv.netlify.com/img/background/dna.jpeg">Visit W3Schools.com!</a></p>
-<script>var str = "test_23";
-alert(str.split("_").pop());
-// -> 23
-
-var str2 = "adifferenttest_153";
-alert(str2.split("_").pop());
-// -> 153
-</script> -->
 <!-- /FLIP 2019 -->
