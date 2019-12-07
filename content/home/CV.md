@@ -12,7 +12,7 @@ subtitle = "Curriculum Vitae"
 weight = 2
 
 # CV location
-cv_pdf = "./files/Tanedo.pdf"
+#cv_pdf = "./files/Tanedo.pdf"
 
 # Group Logo
 # TODO:
