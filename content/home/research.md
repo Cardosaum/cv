@@ -62,7 +62,7 @@ weight = 3
 
 +++
 <span>
-<p style="font-family:Lato; font-size: .7rem;">(2019-Present) &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp; [Github](https://github.com/Cardosaum/attila)</p>
+<p style="font-family:Lato; font-size: .7rem;">(2019-Present) &emsp; [Github](https://github.com/Cardosaum/attila)</p>
 <div class="attila_main">
   <div class="attila_img" style="width: 30%; float:left">
     <img src="img/research/attila_cover.jpg" width="256" height="256">
@@ -82,6 +82,7 @@ weight = 3
 <br />
 <br />
 <br />
+
 
 
 <!-- ## Current Research Foci -->
