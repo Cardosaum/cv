@@ -180,7 +180,7 @@ enableGitInfo = false
   [[params.social]]
     icon = "cv"
     icon_pack = "ai"
-    #link = "files/Tanedo.pdf"
+    link = "files/matheus_cv_en.pdf"
     cv = false
 
   [[params.social]]
