@@ -48,7 +48,10 @@ weight = 1
 
 **Matheus Cardoso has a lot of fun solving biological problems through programming.**
 
-TODO: Write a self discription
+
+Bioinformatician, work with data analysis in the area of genomics and proteomics, developing software that automatically promotes statistics on monoclonal antibodies.<br />
+His work mainly involves machine learning techniques, data mining, data analysis and data visualization. As a result, in addition to working in the area of biological sciences, He also have a strong focus on data science.
+
 
 <!-- He grew up in Los Angeles and fell in love with physics after reading *The Physics of Star Trek*. This carried into degrees in mathematics and physics at Stanford, Cambridge, Durham, and a Ph.D at Cornell. After a postdoc at UC Irvine, he is currently faculty at UC Riverside where he is known for being covered in chalk dust after a long day's work.
  -->
