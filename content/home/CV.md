@@ -71,7 +71,7 @@ weight = 2
 
 +++
 
-**Matheus Cardoso** is a student of biotechnology at the University of Brasília, Federal District, Brazil. He currently internships in the bioinformatics laboratory of the university's cellular biology department. His research seeks to develop software that analyzes phage display libraries and returns, as a result, the most efficiently enriched antibodies, thus providing tools for future research in vaccine development.
+**Matheus Cardoso** is a biotechnology student at the University of Brasília, Federal District, Brazil. He currently internships in the bioinformatics laboratory of the university's cellular biology department. His research seeks to develop software that analyzes phage display libraries and returns, as a result, the most efficiently enriched antibodies, thus providing tools for future research in vaccine development.
 
 <!-- * UCI Chancellor's Advance Postdoctoral Fellow, 2014 - 2015
 * Paul & Daisy Soros Fellowship, 2010 - 2012

@@ -183,6 +183,12 @@ enableGitInfo = false
     #link = "files/Tanedo.pdf"
     cv = false
 
+  [[params.social]]
+    icon = "lattes"
+    icon_pack = "ai"
+    link = "http://lattes.cnpq.br/0144534746446431"
+    cv = false
+
 # Navigation Links
 #   To link a homepage widget, specify the URL as a hash `#` followed by the filename of the
 #     desired widget in your `content/home/` folder.

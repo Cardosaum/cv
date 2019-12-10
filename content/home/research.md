@@ -14,7 +14,7 @@ subtitle = ""
 weight = 3
 
 # Nah, I don't need this.
-preresearchblurb = "![Example](img/research/attila_cover.jpg)"
+#preresearchblurb = "![Example](img/research/attila_cover.jpg)"
 
 #researchblurb = "What is **dark matter**? How does it fit into our understanding of particle physics? How do we search for it? For more details, please refer to my [papers on inSpire](http://inspirehep.net/author/profile/P.Tanedo.1)."
 
@@ -61,8 +61,28 @@ preresearchblurb = "![Example](img/research/attila_cover.jpg)"
 
 
 +++
+<span>
+<p style="font-family:Lato; font-size: .7rem;">(2019-Present) &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp; [Github](https://github.com/Cardosaum/attila)</p>
+<div class="attila_main">
+  <div class="attila_img" style="width: 30%; float:left">
+    <img src="img/research/attila_cover.jpg" width="256" height="256">
+  </div>
 
-TODO: Write about currently research being developed. And, of course, resize Attila image
+  <div class="attila_text" style="width: 65%; float: right">
+    <textbox>
+      <h5 style="font-family:Lato; font-size: .8rem;">ATTILA - AutomaTed Tool For Immunoglobulin Analysis</h5>
+      <p style="font-family:Lato; font-size: .8rem;"> ATTILA searches for candidate immunoglobulin sequences in phage display libraries, generating as main output a list of sequences of heavy and light chain, which were selected by phage display experiment, and code for antibody fragments that can probably bind to the target molecule. ATTILA package has programs developed in <i>Python</i>, <i>C</i>, <i>Perl</i> and <i>Shell Script</i> to execute eight steps of a completely automated analysis. </p>
+    </textbox>
+  </div>
+</div>
+</span>
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+
 
 <!-- ## Current Research Foci -->
 <!--
