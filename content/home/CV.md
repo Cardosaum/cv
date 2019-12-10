@@ -55,11 +55,11 @@ weight = 2
 #   logo = "/logo/icon_Ca.png"
 
 [[education.courses]]
-  course = "BS in Biotechnology"
+  course = "Biotechnology"
   course_short = "BS"
   institution = "University of Brasilia"
   institution_short = "UnB"
-  year = "2019 - Present"
+  year = "2019"
   logo = "/logo/unb_logo.jpg"
 
 
