@@ -61,7 +61,7 @@ weight = 3
 
 
 +++
-<span>
+<!-- <span>
 <p style="font-family:Lato; font-size: .7rem;">(2019-Present) &emsp; [Github](https://github.com/Cardosaum/attila)</p>
 <div class="attila_main">
   <div class="attila_img" style="width: 30%; float:left">
@@ -81,8 +81,33 @@ weight = 3
 <br />
 <br />
 <br />
-<br />
+<br /> -->
+<style type="text/css">
+#wrap {
+   width:100%;
+   margin:0 auto;
+}
+#left_col {
+   float:left;
+   width:30%;
+}
+#right_col {
+   float:right;
+   width:65%;
+}
+</style>
 
+<div id="wrap">
+    <div id="left_col">
+      <p style="font-family:Lato; font-size: .7rem;">(2019-Present) &emsp;</p>
+      <img src="img/research/attila_cover.jpg">
+    </div>
+    <div id="right_col">
+      <a href="https://github.com/Cardosaum/attila">Github</a>
+      <h5 style="font-family:Lato; font-size: .8rem;">ATTILA - AutomaTed Tool For Immunoglobulin Analysis</h5>
+      <p style="font-family:Lato; font-size: .8rem;"> ATTILA searches for candidate immunoglobulin sequences in phage display libraries, generating as main output a list of sequences of heavy and light chain, which were selected by phage display experiment, and code for antibody fragments that can probably bind to the target molecule. ATTILA package has programs developed in <i>Python</i>, <i>C</i>, <i>Perl</i> and <i>Shell Script</i> to execute eight steps of a completely automated analysis. </p>
+    </div>
+</div>
 
 
 <!-- ## Current Research Foci -->
