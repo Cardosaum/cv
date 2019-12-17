@@ -107,7 +107,26 @@ weight = 3
       <h5 style="font-family:Lato; font-size: .8rem;">ATTILA - AutomaTed Tool For Immunoglobulin Analysis</h5>
       <p style="font-family:Lato; font-size: .8rem;"> ATTILA searches for candidate immunoglobulin sequences in phage display libraries, generating as main output a list of sequences of heavy and light chain, which were selected by phage display experiment, and code for antibody fragments that can probably bind to the target molecule. ATTILA package has programs developed in <i>Python</i>, <i>C</i>, <i>Perl</i> and <i>Shell Script</i> to execute eight steps of a completely automated analysis. </p>
     </div>
+
 </div>
+
+<!-- # TODO: put some sample graphs in this section -->
+  <!-- Import Vega 5 & Vega-Lite 3 (does not have to be from CDN) -->
+<!-- <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+<script src="https://cdn.jsdelivr.net/npm/vega-lite@3"></script> -->
+  <!-- Import vega-embed -->
+<!-- <script src="https://cdn.jsdelivr.net/npm/vega-embed@4"></script> -->
+
+<!-- <div id="vis"></div> -->
+
+<!-- <script type="text/javascript">
+  var spec = "https://raw.githubusercontent.com/vega/vega/master/docs/examples/bar-chart.vg.json";
+  vegaEmbed('#vis', spec).then(function(result) {
+    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+  }).catch(console.error);
+</script> -->
+
+
 
 
 <!-- ## Current Research Foci -->
