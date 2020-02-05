@@ -144,7 +144,7 @@ enableGitInfo = false
   [[params.social]]
     icon = "telegram"
     icon_pack = "fab"
-    link = "Cardosaum"
+    link = "https://t.me/Cardosaum"
     cv = true
 
   # [[params.social]]
