@@ -24,9 +24,9 @@ cv_pdf = "./files/matheus_cv_en.pdf"
   interests = [
     "Bioinformatics",
     "Computational Biology",
-    "Data Science",
     "Molecular Biology",
-    "Synthetic Biology"
+    "Data Science",
+    "Artificial Intelligence"
   ]
 
 # List your qualifications (such as academic degrees).
@@ -59,8 +59,16 @@ cv_pdf = "./files/matheus_cv_en.pdf"
   course_short = "BS"
   institution = "University of Brasilia"
   institution_short = "UnB"
-  year = "2019"
+  year = "2019 - 2020"
   logo = "/logo/unb_logo.jpg"
+
+[[education.courses]]
+  course = "Computer Science"
+  course_short = "BS"
+  institution = "Federal University of Rio de Janeiro"
+  institution_short = "UFJR"
+  year = "2020 - Present"
+  logo = "/logo/ufrj-dcc.svg"
 
 
 # List your academic interests.
