@@ -54,9 +54,11 @@
             <div class="description">
               <!-- <p class="course">{{ .course }}{{ with .year }}, {{ . }}{{ end }}</p>
               <p class="institution">{{ .institution }}</p> -->
-              {{ .course_short }}, {{ .course }} -
+              {{ .course_short }}, {{ .course }}
+              <br>
               {{ with .institution_short }} {{ . }}{{ end }}
               {{ with .year }}({{ . }}){{ end }}
+              <br>
               <br />
             </div>
           <!-- </li> -->
