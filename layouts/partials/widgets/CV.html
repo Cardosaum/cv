@@ -58,6 +58,13 @@
               <br>
               {{ with .institution_short }} {{ . }}{{ end }}
               {{ with .year }}({{ . }}){{ end }}
+              {{ if .note }}
+              <div class="description">
+                <small>
+                  {{ .note }}
+                </small>
+              </div>
+              {{ end }}
               <br>
               <br />
             </div>
