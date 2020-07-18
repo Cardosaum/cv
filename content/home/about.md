@@ -49,7 +49,7 @@ weight = 1
 **Matheus Cardoso has a lot of fun solving biological problems through programming.**
 
 
-Bioinformatician, work with data analysis in the area of genomics and proteomics, developing software that automatically promotes statistics on monoclonal antibodies.<br />
+Computer Science student, work with data analysis in the area of genomics and proteomics, developing software that automatically promotes statistics on monoclonal antibodies.<br />
 His work mainly involves machine learning techniques, data mining, data analysis and data visualization. As a result, in addition to working in the area of biological sciences, He also have a strong focus on data science.
 
 
