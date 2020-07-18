@@ -31,7 +31,7 @@ enableGitInfo = false
 
   # Your details.
   name = "Matheus Cardoso"
-  role = "Biotechnology Student"
+  role = "Computer Science Student"
   # TODO: organizations = [ { name = "UCR Particle Theory", url = "http://theory.ucr.edu" } ]
 
   gravatar = false  # Get your avatar from Gravatar.com? (true/false)
@@ -123,6 +123,28 @@ enableGitInfo = false
   #   link = "http://orcid.org/0000-0003-4642-2199"
   #   cv = true
 
+  [[params.social]]
+    icon = "lattes"
+    icon_pack = "ai"
+    link = "http://lattes.cnpq.br/0144534746446431"
+    cv = false
+
+  [[params.social]]
+    icon = "orcid"
+    icon_pack = "ai"
+    link = "http://orcid.org/0000-0002-1890-1400"
+    cv = false
+
+  [[params.social]]
+    icon = "cv"
+    icon_pack = "ai"
+    link = "files/matheus_cv_en.pdf"
+    cv = false
+
+  [[params.social]]
+    icon = "envelope"
+    icon_pack = "fas"
+    link = "mailto:matheuscs@dcc.ufrj.br"
 
   [[params.social]]
     icon = "github"
@@ -135,11 +157,6 @@ enableGitInfo = false
     icon_pack = "fab"
     link = "https://stackoverflow.com/users/10719703/matheus-c?tab=profile"
     cv = true
-
-  [[params.social]]
-    icon = "envelope"
-    icon_pack = "fas"
-    link = "mailto:matheuscs@dcc.ufrj.br"
 
   [[params.social]]
     icon = "telegram"
@@ -177,17 +194,7 @@ enableGitInfo = false
   #   link = "https://academictree.org/physics/tree.php?pid=715850"
   #   cv = false
 
-  [[params.social]]
-    icon = "cv"
-    icon_pack = "ai"
-    link = "files/matheus_cv_en.pdf"
-    cv = false
 
-  [[params.social]]
-    icon = "lattes"
-    icon_pack = "ai"
-    link = "http://lattes.cnpq.br/0144534746446431"
-    cv = false
 
 # Navigation Links
 #   To link a homepage widget, specify the URL as a hash `#` followed by the filename of the
