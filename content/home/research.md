@@ -105,7 +105,7 @@ weight = 3
     <div id="right_col">
       <a href="https://github.com/Cardosaum/attila">Github</a>
       <h5 style="font-family:Lato; font-size: .8rem;">ATTILA - AutomaTed Tool For Immunoglobulin Analysis</h5>
-      <p style="font-family:Lato; font-size: .8rem;"> ATTILA searches for candidate immunoglobulin sequences in phage display libraries, generating as main output a list of sequences of heavy and light chain, which were selected by phage display experiment, and code for antibody fragments that can probably bind to the target molecule. ATTILA package has programs developed in <i>Python</i>, <i>C</i>, <i>Perl</i> and <i>Shell Script</i> to execute eight steps of a completely automated analysis. </p>
+      <p style="font-family:Lato; font-size: .8rem;"> ATTILA searches for candidate immunoglobulin sequences in phage display libraries, generating as main output a list of sequences of heavy and light chain, which were selected by phage display experiment, and code for antibody fragments that can probably bind to the target molecule. ATTILA package has programs developed in <i>Python</i>, <i>C</i>, <i>Perl</i>, <i>R</i> and <i>Shell Script</i> to execute eight steps of a completely automated analysis. </p>
     </div>
 
 </div>
