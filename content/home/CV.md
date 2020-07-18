@@ -69,7 +69,7 @@ cv_pdf = "./files/matheus_cv_en.pdf"
   institution_short = "UnB"
   year = "2019 - 2020"
   logo = "/logo/unb_logo.jpg"
-  note = "(not completed)"
+  note = "not completed"
 
 
 # List your academic interests.
