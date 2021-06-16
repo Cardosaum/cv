@@ -135,16 +135,16 @@ enableGitInfo = false
     link = "http://orcid.org/0000-0002-1890-1400"
     cv = false
 
-  [[params.social]]
-    icon = "cv"
-    icon_pack = "ai"
-    link = "files/matheus_cv_en.pdf"
-    cv = false
+  # [[params.social]]
+  #   icon = "cv"
+  #   icon_pack = "ai"
+  #   link = "files/matheus_cv_en.pdf"
+  #   cv = false
 
   [[params.social]]
     icon = "envelope"
     icon_pack = "fas"
-    link = "mailto:matheuscs@dcc.ufrj.br"
+    link = "mailto:cardosaum@pm.me"
 
   [[params.social]]
     icon = "github"
@@ -158,11 +158,11 @@ enableGitInfo = false
     link = "https://stackoverflow.com/users/10719703/matheus-c?tab=profile"
     cv = true
 
-  [[params.social]]
-    icon = "telegram"
-    icon_pack = "fab"
-    link = "https://t.me/Cardosaum"
-    cv = true
+  # [[params.social]]
+  #   icon = "telegram"
+  #   icon_pack = "fab"
+  #   link = "https://t.me/Cardosaum"
+  #   cv = true
 
   # [[params.social]]
   #   icon = "arxiv"
