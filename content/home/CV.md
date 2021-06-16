@@ -12,7 +12,7 @@ subtitle = ""
 weight = 2
 
 # CV location
-cv_pdf = "./files/matheus_cv_en.pdf"
+cv_pdf = "../curriculum_vitae/curriculum_vitae__en.pdf"
 
 # Group Logo
 # TODO:
