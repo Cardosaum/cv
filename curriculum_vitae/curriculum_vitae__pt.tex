@@ -253,10 +253,18 @@
 	}
 }
 
-\newcommand{\cvsectionsmall}[1] {
+\newcommand{\cvsectionskill}[1] {
 	\vspace{14pt}
 	\cvtext{
-		\textbf{\Large{\textcolor{darkcol}{#1}}}\\[-4pt]
+		\textbf{\LARGE{\textcolor{darkcol}{#1}}}\textbf{\small{\textcolor{darkcol}{\hspace{3}(0 a 5 anos)}}}\\[-4pt]
+		\textcolor{accentcol}{ \rule{0.265\textwidth}{1.5pt} } \\
+	}
+}
+
+\newcommand{\cvsectionsmall}[1] {
+	\vspace{10pt}
+	\cvtext{
+		\textbf{\fontsize{13}{10}\selectfont{\textcolor{darkcol}{#1}}}\\[-6pt]
 		\textcolor{accentcol}{ \rule{0.2\textwidth}{1.5pt} } \\
 	}
 }
@@ -294,6 +302,7 @@
 		\fill [lightcol] (0,0) rectangle (1\mpwidth, 0.15);
 		\fill [accentcol] (0,0) rectangle (#3\mpwidth, 0.15);
   	\end{tikzpicture}%
+	\\[-8pt]%
 }
 
 
@@ -435,91 +444,177 @@
 %---------------------------------------------------------------------------------------
 %	META SKILLS
 %----------------------------------------------------------------------------------------
-	\fcolorbox{white}{white}{\begin{minipage}[c][1.5cm][c]{1\mpwidth}
+	\fcolorbox{white}{white}{\begin{minipage}[c][1.0cm][c]{1\mpwidth}
 		\LARGE{\textbf{\textcolor{maincol}{Matheus Cardoso}}} \\[2pt]
 		\normalsize{ \textcolor{maincol} {Computer Scientist (B. Sc.)} }
-\end{minipage}} \\
-\icontext{CaretRight}{12}{05/03/1999 em São Paulo}{black}\\[6pt]
-\icontext{CaretRight}{12}{Brasileiro}{black}\\[6pt]
-\icontext{CaretRight}{12}{Solteiro}{black}\\[6pt]
-
-
-
-\cvsection{Habilidades}
-
-\cvskill{Python} {3+ yrs.} {0.8} \\[-2pt]
-
-\cvskill{Shell Scripting} {3+ yrs.} {0.8} \\[-2pt]
-
-\cvskill{Administração de sistemas/ \newline Linux} {3+ yrs.} {0.8} \\[-2pt]
-
-\cvskill{Bioinformática} {2+ yrs.} {0.64} \\[-2pt]
-
-\cvskill{Ciência de Dados} {2+ yrs.} {0.64} \\[-2pt]
-
-\cvskill{R} {1.5+ yrs.} {0.48} \\[-2pt]
-
-\cvskill{C} {1+ yrs.} {0.32} \\[-2pt]
-
-\cvskill{Programação de baixo nível/ \newline Assembly} {6 mos.} {0.16} \\[-2pt] \\
-
-\cvskill{Português} {Nativo} {1} \\[-2pt]
-
-\cvskill{Inglês} {B1} {0.6} \\[-2pt]
-
-\newpage
-%---------------------------------------------------------------------------------------
-%	EDUCATION
-%----------------------------------------------------------------------------------------
-\cvsection{Educação}
-
-\cvmetaevent
-{01/2021 - Presente}
-{Bacharelado em Ciências da Computação}
-{Universidade de Brasília - UnB}
-
-\cvmetaevent
-{01/2020 - Interrompido}
-{Bacharelado em Ciências da Computação}
-{Universidade Federal do Rio de Janeiro - UFRJ}
-{\footnotesize Nota: Optou por mudar de faculdade devido à pandemia de COVID-19}
-
-\cvmetaevent
-{01/2019 - Interrompido}
-{Bacharelado em Biotecnologia}
-{Universidade de Brasília - UnB}
-{\footnotesize Nota: Optou por mudar de faculdade devido à preferência pela área de computação}
-
-
-
-\cvsection{Projetos}
-
-	\hyperlink{https://github.com/cardosaum/attila}{\textbf{Attila}}\\ AutomaTed Tool For Immunoglobulin Analysis. Software para avaliar o enriquecimento de anticorpos monoclonais.\\
-
-	\hyperlink{https://github.com/cardosaum/isc-lolo-game}{\textbf{As aventuras de Lolo}}\\ Recriação do jogo \textit{As aventuras de Lolo} em assembly RISC-V.\\
-
-	\hyperlink{https://github.com/cardosaum/ufrj-comp1-senha}{\textbf{Senha}}\\ Recriação do jogo \textit{Senha} em C.\\
-
-
-% \cvsection{Interests}
-
-% \icontext{CaretRight}{12}{Guitarist}{black}\\[6pt]
-% \icontext{CaretRight}{12}{DIY}{black}\\[6pt]
-% \icontext{CaretRight}{12}{Fitness}{black}\\[6pt]
-% \icontext{CaretRight}{12}{Cooking}{black}\\[6pt]
-% \icontext{CaretRight}{12}{Travel}{black}\\[6pt]
+\end{minipage}}
 
 \cvsection{Contato}
 
 % \icontext{MapMarker}{16}{Street name XX\\D-XXXXX Lorem}{black}\\[6pt]
-\icontext{MobilePhone}{16}{+55 (61) 98264-5973}{black}\\[6pt]
-\iconemail{Envelope}{16}{cardosaum@pm.me}{cardosaum@pm.me}{black}\\[6pt]
+\icontext{MobilePhone}{16}{+55 (61) 98264-5973}{black}\\[3pt]
+\iconemail{Envelope}{16}{cardosaum@pm.me}{cardosaum@pm.me}{black}\\[3pt]
 % \iconhref{Home}{16}{XXX.XXX-XXXX.XX}{http://XXX-XXX.XXX.XX}{black}\\[6pt]
-\iconhref{Github}{16}{github.com/cardosaum}{https://www.github.com/cardosaum}{black}\\[6pt]
+\iconhref{Github}{16}{cardosaum}{https://www.github.com/cardosaum}{black}\\[3pt]
+\iconhref{Linkedin}{16}{matheus-c-souza}{https://www.linkedin.com/in/matheus-c-souza}{black}\\[3pt]
+\iconhref{Home}{16}{mcscv.netlify.com}{https://www.linkedin.com/in/matheus-c-souza}{black}\\[3pt]
 % \iconhref{Xing}{16}{xing.com/user\_name}{https://www.xing.com/profile/User_Name}{black}\\
 
-	
-%\cvqrcode{0.3}
+
+% \icontext{CaretRight}{12}{05.03.1999 in São Paulo}{black}\\[6pt]
+% \icontext{CaretRight}{12}{Brazilian}{black}\\[6pt]
+% \icontext{CaretRight}{12}{Unmarried}{black}\\[6pt]
+
+
+%%%%%%%%
+\cvsectionskill{Habilidades}
+
+%%%%
+\cvsectionsmall{Linguagens de\\ Programação}
+
+\cvskill{Python} {3+ yrs.} {0.6}
+
+\cvskill{Shell Scripting} {3+ yrs.} {0.6}
+
+\cvskill{R} {1.5+ yrs.} {0.30}
+
+\cvskill{C/C++} {1+ yrs.} {0.20}
+
+\cvskill{SQL} {6+ mos.} {0.10}
+
+\cvskill{Java} {6+ mos.} {0.10}
+
+\cvskill{Rust} {6+ mos.} {0.10}
+
+\cvskill{Javascript} {6+ mos.} {0.10}
+
+\cvskill{RISC-V Assembly} {6+ mos.} {0.10}
+%%%%
+
+%%%%
+\cvsectionsmall{Tecnologias}
+
+\cvskill{HTML/CSS} {2.5+ yrs.} {0.50}
+
+\cvskill{Git} {2.5+ yrs.} {0.50}
+
+\cvskill{\LaTeX} {1.5+ yrs.} {0.30}
+\vfill\null
+%%%%
+
+%%%%
+\cvsectionsmall{Frameworks}
+
+\cvskill{Biopython} {2.5+ yrs.} {0.50}
+
+\cvskill{Tidyverse} {1.5+ yrs.} {0.30}
+
+\cvskill{Tidymodels} {1.5+ yrs.} {0.30}
+
+\cvskill{Numpy} {6+ mos.} {0.10}
+
+\cvskill{Pandas} {6+ mos.} {0.10}
+
+\cvskill{Django} {6- mos.} {0.06}
+%%%%
+
+
+%%%%
+\cvsectionsmall{Áreas de experiência}
+
+\cvskill{Administração de \newline Sistemas} {3+ yrs.} {0.6}
+
+\cvskill{Bioinformática} {2.5+ yrs.} {0.5}
+
+\cvskill{Ciência de Dados} {2+ yrs.} {0.4}
+
+\cvskill{Sistemas Embarcados} {6+ mos.} {0.10}
+%%%%
+
+
+%%%%
+\cvsectionsmall{Idiomas}
+
+\cvskill{Português} {Nativo} {1}
+
+\cvskill{Inglês} {B1} {0.6}
+
+\cvskill{Espanhol} {B1} {0.6}
+%%%%
+
+%%%%%%%%
+
+% \newpage
+% %---------------------------------------------------------------------------------------
+% %	EDUCATION
+% %----------------------------------------------------------------------------------------
+% \cvsection{Education}
+
+% \cvmetaevent
+% {01/2021 - Present}
+% {Computer Science (B.Sc.)}
+% {University of Brasília - UnB}
+
+% \cvmetaevent
+% {01/2020 - 12/2020}
+% {Computer Science (B.Sc.)}
+% {Federal University of Rio de Janeiro - UFRJ}
+% {\footnotesize Note: Opted to change university due to COVID pandemic}
+
+% \cvmetaevent
+% {01/2019 - 12/2019}
+% {Biotechnology (B.Sc.)}
+% {University of Brasília - UnB}
+% {\footnotesize Note: Opted to change university due to preference for programming}
+
+
+
+% \cvsection{Projects}
+
+% 	\hyperlink{https://github.com/cardosaum/attila}{\textbf{Attila}}\\ AutomaTed Tool For Immunoglobulin Analysis, A software to assess monoclonal antibody enrichment.\\
+
+% 	\hyperlink{https://github.com/cardosaum/isc-lolo-game}{\textbf{The Adventures of Lolo}}\\ Remake of the game \textit{The Adventures of Lolo} in RISC-V assembly.\\
+
+% 	\hyperlink{https://github.com/cardosaum/ufrj-comp1-senha}{\textbf{Mastermind}}\\ Remake of the game \textit{Mastermind} in C.\\
+
+
+\cvsection{Interesses}
+
+\icontext{CaretRight}{12}{Bioinformática/\\Biologia Computacional}{black}\\[6pt]
+\icontext{CaretRight}{12}{Inteligência Artificial}{black}\\[6pt]
+\icontext{CaretRight}{12}{Enovelamento de Proteínas}{black}\\[6pt]
+\icontext{CaretRight}{12}{Projetos de código aberto}{black}\\[6pt]
+\icontext{CaretRight}{12}{Sistemas Embarcados}{black}\\[6pt]
+
+% \vfill
+% \mbox{}
+% \vfill
+% \mbox{}
+% \vfill
+% \mbox{}
+% \vfill
+% \mbox{}
+% \vfill
+% \mbox{}
+% \vfill
+% \mbox{}
+% \vfill
+% \mbox{}
+% \vfill
+% \mbox{}
+% \vfill
+% \mbox{}
+% \vfill
+% \mbox{}
+% \vfill
+% \mbox{}
+% \vfill
+% \mbox{}
+% \vfill
+% \mbox{}
+
+
+% \cvqrcode{0.3}
 
 \end{leftcolumn}
 \begin{rightcolumn}
@@ -536,16 +631,12 @@
 
 \cvtext{
 
-  Estudande de Bacharelado no curso de Ciências da Computação,
-  \\\\
-  Computer Science student, work with data analysis in the area of genomics and
-  proteomics, developing software that automatically promotes statistics on
-  monoclonal antibodies. His work mainly involves machine learning techniques,
-  data mining, data analysis and data visualization. As a result, in addition to
-  working in the area of biological sciences, He also have a strong focus on
-  data science. \\
+  Estudante de Ciências da Computação, trabalha com análise de dados na área de genômica e proteômica, desenvolvendo um software que gera, automaticamente, estatísticas sobre anticorpos monoclonais enriquecidos. Seu trabalho envolve principalmente técnicas de aprendizado de máquina, mineração, análise e visualização de dados. Como resultado, além de trabalhar na área de ciências da computação, também possui um grande foco em ciências biológicas e de dados.\\[-8pt]
+
+  Em seu tempo livre, ele também tem contribuído para projetos de código aberto; Abrangendo desde frameworks para ciência de dados (\hyperlink{https://pandas.pydata.org/}{Pandas}) a softwares educacionais para aprendizado (\hyperlink{https://apps.ankiweb.net/}{Anki}) e programas de produtividade (\hyperlink{https://github.com/hrkfdn/ncspot/}{ncspot}, \hyperlink{https://github.com/Airblader/unclutter-xfixes/issues/67}{unclutter} and \hyperlink{https://github.com/Cardosaum/hacksaw/}{hacksaw}).
 
   % \Blindtext[1]
+
 
 }
 
@@ -555,119 +646,160 @@
 %----------------------------------------------------------------------------------------
 
 \vspace{10pt}
-\cvsection{Work experience}
+\cvsection{Educação}
 \vspace{4pt}
 
 
 \cvevent
-{XX/XXXX - today}
-	{Research assistant | PhD student}
-	{Department of Lipsum (Prof. Name)\newline University of Lipsum}
-	{Here you can describe your work content and go into detail about individual parts of this job. Possibly an enumeration by means of "," is useful. Otherwise, describe the essential content of this item in 1-2 sentences.}
+{03/2021 - presente}
+	{Bacharelado em Ciências da Computação}
+	{Universidade de Brasília - UnB}
+	{Graduação ainda em curso. Sou aluno de destaque da turma, com grandes chances de formar com honras.\\[5]Rendimento Acadêmico: 5/5}
+	% {I don't have much to say yet.\\[5]GPA: 4.8/5}
 	\vfill\null
 
 
 \cvevent
-{XX/XXXX - XX/XXXX}
-	{Part-time research assistant}
-	{Department of Lipsum (Prof. Name)\newline University of Lipsum}
-	{Here you can describe your work content and go into detail about individual parts of this job. Possibly an enumeration by means of "," is useful. Otherwise, describe the essential content of this item in 1-2 sentences.}
-	\vfill\null
-
-
-	
-\cvevent
-{XX/XXXX - XX/XXXX}
-	{Trainer - Course name}
-	{Department of Lipsum (Prof. Name)\newline University of Lipsum}
-	{Here you can describe your work content and go into detail about individual parts of this job. Possibly an enumeration by means of "," is useful. Otherwise, describe the essential content of this item in 1-2 sentences.}
-	\vfill\null
-
-
-	
-\cvevent
-    {XX/XXXX - XX/XXXX}
-	{Trainer - Course name}
-	{Department of Lipsum (Prof. Name)\newline University of Lipsum}
-	{Here you can describe your work content and go into detail about individual parts of this job. Possibly an enumeration by means of ","  is useful. Otherwise, describe the essential content of this item in 1-2 sentences.}
-	\vfill\null
-	\vfill\null
-
-
-   	
-\cvevent
-{XX/XXXX - XX/XXXX}
-	{Trainer - Course name}
-	{Department of Lipsum (Prof. Name)\newline University of Lipsum}
-	{Here you can describe your work content and go into detail about individual parts of this job. Possibly an enumeration by means of "," is useful. Otherwise, describe the essential content of this item in 1-2 sentences.}
+{01/2020 - 03/2021}
+	{Bacharelado em Ciências da Computação}
+	{Universidade Federal do Rio de Janeiro - UFRJ}
+	{Devido a pandemia, optei por me mudar do Rio de Janeiro de volta para Brasília.\\[5]Rendimento Acadêmico: 2.9/5}
 	\vfill\null
 
 	
 \cvevent
-{XX/XXXX - XX/XXXX}
-	{Part-time research assistant}
-	{Department of Lipsum (Prof. Name)\newline University of Lipsum}
-	{Here you can describe your work content and go into detail about individual parts of this job. Possibly an enumeration by means of "," is useful. Otherwise, describe the essential content of this item in 1-2 sentences.}
+{01/2019 - 12/2019}
+	{Bacharelado em Biotecnologia}
+	{Universidade de Brasília - UnB}
+	{Eu tive a oportunidade de estagiar no laboratório de Bioinformática e Imunologia do laboratório da UnB, onde contribuí, e ainda contribuo, para o desenvolvimento de um software para analisar o enriquecimento de anticorpos monoclonais. Lá eu descobri que, mais do que pesquisar, eu gostava de programar. Dessa forma, optei por mudar de curso.\\[5]Rendimento Acadêmico: 4.8/5}
 	\vfill\null
 
+
+\cvsection{Projetos}
+
+\cvevent
+{01/2019 - presente}
+	{\hyperlink{https://github.com/cardosaum/attila}{\textbf{ATTILA - AutomaTed Tool For Immunoglobulin}}}
+	{Universidade de Brasília - UnB}
+	{ATTILA é um programa de código aberto que analisa bibliotecas de phage display de forma a avaliar o enriquecimento de anticorpos monoclonais. Fazendo isso, o software é capaz de predizer quais anticorpos podem se ligar de forma mais efetiva a moléculas alvo. Dessa forma, o ATTILA se torna uma ferramenta útil a cientistas que trabalham no desenvolvimento de vacinas.} \vfill\null
+
+  \cvevent {06/2021 - presente}
+  {\hyperlink{https://github.com/cardosaum/cdr3-parser}{\textbf{cdr3-parser}}}
+  {Universidade de Brasília - UnB}
+  {\textbf{cdr3-parser} é um programa de linha de comando escrito em \texttt{Rust} para converter arquivos intermediários gerados pelo ATTILA em arquivos \texttt{csv} com estatísticas sobre as regiões VH-CDR3 presentes no arquivo inicial. \textbf{cdr3-parser} faz uso das características de paralelismo seguro proporcionadas pela linguagem \texttt{Rust} para analisar o arquivo inicial da forma mais eficiente possível, usando todas as threads disponíveis do servidor existente no laboratório de Bioinformática da UnB.} \vfill\null
 
 
 \cvevent
-{XX/XXXX - XX/XXXX}
-	{Internship}
-	{Department \newline Company name (Location)}
-	{Here you can describe your work content and go into detail about individual parts of this job. Possibly an enumeration by means of "," is useful. Otherwise, describe the essential content of this item in 1-2 sentences.}
-	\vfill\null
-
-\cvevent
-{XX/XXXX - XX/XXXX}
-	{Student assistant}
-	{Department of Lipsum (Prof. Name)\newline University of Lipsum}
-	{Here you can describe your work content and go into detail about individual parts of this job. Possibly an enumeration by means of "," is useful. Otherwise, describe the essential content of this item in 1-2 sentences.}
+{03/2021 - 05/2021}
+	{\hyperlink{https://github.com/cardosaum/isc-lolo-game}{\textbf{The Adventures of Lolo}}}
+    {Universidade de Brasília - UnB}
+	{Recriação do jogo \textit{The Adventures of Lolo} em \texttt{RISC-V Assembly}.}
 	\vfill\null
 
 
 \cvevent
-{XX/XXXX - XX/XXXX}
-	{Trainer - Course name}
-	{Department of Lipsum (Prof. Name)\newline University of Lipsum}
-	{Here you can describe your work content and go into detail about individual parts of this job. Possibly an enumeration by means of "," is useful. Otherwise, describe the essential content of this item in 1-2 sentences.}
-	\vfill\null
-
-
+{02/2021 - 03/2021}
+	{\hyperlink{https://github.com/cardosaum/ufrj-comp1-senha}{\textbf{Mastermind}}}
+	{Universidade Federal do Rio de Janeiro - UFRJ}
+	{Recriação do jogo \textit{Mastermind} em \texttt{C}.}
+  \vfill\null
 
 \cvevent
-{XX/XXXX - XX/XXXX}
-	{Working student}
-	{Department \newline Company name (Location)}
-	{Here you can describe your work content and go into detail about individual parts of this job. Possibly an enumeration by means of "," is useful. Otherwise, describe the essential content of this item in 1-2 sentences.}
+{08/2020}
+	{\hyperlink{https://cardosaum.shinyapps.io/Matheus-Cardoso-DDP-JHU-Week4}{\textbf{Brazilian Students' Performance on ENEM}}}
+	{Johns Hopkins Bloomberg School of Public Health}
+	{Um projeto de visualização de dados mostrando a performance dos estudantes brasileiros que concorreram ao curso de Bacharelado em Ciências da Computação da Universidade de São Paulo, uma das melhores do país.}
+  \vfill\null
+
+\cvevent
+{08/2020}
+	{\hyperlink{https://cardosaum.shinyapps.io/WordPredictor_Final_Project_JHU_Matheus_C}{\textbf{Word Predictor Model}}}
+	{Johns Hopkins Bloomberg School of Public Health}
+	{Um aplicativo web que usa técnicas de aprendizado de máquina para predizer a próxima palavra em uma frase.}
+  \vfill\null
+
+
+\cvsection{Prêmios \& Certificados}
+
+\cvevent
+{01/2020 - 09/2020}
+	{\hyperlink{https://www.coursera.org/account/accomplishments/specialization/certificate/JTYMU3V78XWZ}{\textbf{Especialização em Ciência de Dados}}}
+	{Johns Hopkins Bloomberg School of Public Health}
+	{}
+	\vfill\null
+
+\cvevent
+{2020}
+	{\hyperlink{}{\textbf{Hackathon de Bioinformática de Copenhague}}}
+	{BioLib}
+	{Ganhador do Hackathon na modalidade \textit{``Predição de Patogenicidade''}.}
+	\vfill\null
+
+\cvevent
+{2019}
+	{\hyperlink{https://talentouniversitario.capes.gov.br/#!/index}{\textbf{Prêmio Capes Talento Universitário}}}
+	{CAPES}
+	{Premiado pelo Ministério da Eduação, por meio da CAPES, como um dos 1000 calouros mais talentosos do país.}
+	\vfill\null
+
+\cvevent
+{2019}
+	{Hackathon NASA Space Apps BSB}
+	{NASA}
+	{Premiado como 5º colocado, em mais de 60 times, na fase regional do Hackathon no Brasil.}
 	\vfill\null
 
 
-\cvsection{Publications}
+% \cvsection{Service}
 
-\begin{itemize}[leftmargin=*]
-\item Author, G. \& Author, P. \&  Author G. (2020). "This is the title of the publication". In: \textit{Proceedings of the 28th Conference on Lipsum (LIPSUM)}, Lipsum, June 12-17, 2020.
-\item Author, G. \& Author, P. \&  Author G. (2020). "This is the title of the publication". In: \textit{Proceedings of the 28th Conference on Lipsum (LIPSUM)}, Lipsum, June 12-17, 2020.
-\item Author, G. \& Author, P. \&  Author G. (2020). "This is the title of the publication". In: \textit{Proceedings of the 28th Conference on Lipsum (LIPSUM)}, Lipsum, June 12-17, 2020.
-\end{itemize}
-% hofixes to create fake-space to ensure the whole height is used
-\mbox{}
-\vfill
-\mbox{}
-\vfill
-\mbox{}
-\vfill
-\mbox{}
-\vfill
-\mbox{}
-\vfill
-\mbox{}
-\vfill
-\mbox{}
+% \cvevent
+% {2019}
+% 	{CPA}
+% 	{NASA}
+% 	{Awarded as 5th out of 60+ teams in the Brazil's Midwest regional phase.}
+% 	\vfill\null
+
+% \cvevent
+% {03/2020 - 09/2020}
+% 	{\hyperlink{https://www.coursera.org/account/accomplishments/specialization/certificate/JTYMU3V78XWZ}{\textbf{Data Science Specialization}}}
+% 	{Johns Hopkins Bloomberg School of Public Health}
+% 	{}
+% 	\vfill\null
 
 
-Lorem, \today     \hspace{1cm}   \hrulefill
+
+% \cvsection{Publications}
+
+% \item Author, G. \& Author, P. \&  Author G. (2020). "This is the title of the publication". In: \textit{Proceedings of the 28th Conference on Lipsum (LIPSUM)}, Lipsum, June 12-17, 2020.
+% \item Author, G. \& Author, P. \&  Author G. (2020). "This is the title of the publication". In: \textit{Proceedings of the 28th Conference on Lipsum (LIPSUM)}, Lipsum, June 12-17, 2020.
+% \item Author, G. \& Author, P. \&  Author G. (2020). "This is the title of the publication". In: \textit{Proceedings of the 28th Conference on Lipsum (LIPSUM)}, Lipsum, June 12-17, 2020.
+% \end{itemize}
+
+% % hofixes to create fake-space to ensure the whole height is used
+\mbox{}
+\vfill
+\mbox{}
+\vfill
+\mbox{}
+\vfill
+\mbox{}
+\vfill
+\mbox{}
+\vfill
+\mbox{}
+\vfill
+\mbox{}
+\vfill
+\mbox{}
+\vfill
+\mbox{}
+\vfill
+\mbox{}
+\vfill
+\mbox{}
+
+
+São Paulo, \today \hspace{1cm} \hrulefill
 
 \hspace*{30mm}\phantom{Lorem, \today }Matheus Cardoso de Souza
 
