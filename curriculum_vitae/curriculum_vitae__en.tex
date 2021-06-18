@@ -253,6 +253,14 @@
 	}
 }
 
+\newcommand{\cvsectionskill}[1] {
+	\vspace{14pt}
+	\cvtext{
+		\textbf{\LARGE{\textcolor{darkcol}{#1}}}\textbf{\small{\textcolor{darkcol}{\hspace{18}(0 to 5 yrs.)}}}\\[-4pt]
+		\textcolor{accentcol}{ \rule{0.2\textwidth}{1.5pt} } \\
+	}
+}
+
 \newcommand{\cvsectionsmall}[1] {
 	\vspace{10pt}
 	\cvtext{
@@ -444,11 +452,11 @@
 \cvsection{Contact}
 
 % \icontext{MapMarker}{16}{Street name XX\\D-XXXXX Lorem}{black}\\[6pt]
-% \icontext{MobilePhone}{16}{+55 (61) 98264-5973}{black}\\[3pt]
+\icontext{MobilePhone}{16}{+55 (61) 98264-5973}{black}\\[3pt]
 \iconemail{Envelope}{16}{cardosaum@pm.me}{cardosaum@pm.me}{black}\\[3pt]
 % \iconhref{Home}{16}{XXX.XXX-XXXX.XX}{http://XXX-XXX.XXX.XX}{black}\\[6pt]
 \iconhref{Github}{16}{cardosaum}{https://www.github.com/cardosaum}{black}\\[3pt]
-% \iconhref{Linkedin}{16}{matheus-c-souza}{https://www.linkedin.com/in/matheus-c-souza}{black}\\[3pt]
+\iconhref{Linkedin}{16}{matheus-c-souza}{https://www.linkedin.com/in/matheus-c-souza}{black}\\[3pt]
 \iconhref{Home}{16}{mcscv.netlify.com}{https://www.linkedin.com/in/matheus-c-souza}{black}\\[3pt]
 % \iconhref{Xing}{16}{xing.com/user\_name}{https://www.xing.com/profile/User_Name}{black}\\
 
@@ -459,33 +467,70 @@
 
 
 %%%%%%%%
-\cvsection{Skills}
+\cvsectionskill{Skills}
 
 %%%%
 \cvsectionsmall{Programming \\ Languages}
 
-\cvskill{Python} {3+ yrs.} {0.8}
+\cvskill{Python} {3+ yrs.} {0.6}
 
-\cvskill{Shell Scripting} {3+ yrs.} {0.8}
+\cvskill{Shell Scripting} {3+ yrs.} {0.6}
 
-\cvskill{R} {1.5+ yrs.} {0.48}
+\cvskill{R} {1.5+ yrs.} {0.30}
 
-\cvskill{C/C++} {1+ yrs.} {0.32}
+\cvskill{C/C++} {1+ yrs.} {0.20}
 
-\cvskill{SQL} {6+ mos.} {0.20}
+\cvskill{SQL} {6+ mos.} {0.10}
+
+\cvskill{Java} {6+ mos.} {0.10}
+
+\cvskill{Rust} {6+ mos.} {0.10}
+
+\cvskill{Javascript} {6+ mos.} {0.10}
+
+\cvskill{RISC-V Assembly} {6+ mos.} {0.10}
 %%%%
+
+%%%%
+\cvsectionsmall{Technologies}
+
+\cvskill{HTML/CSS} {2.5+ yrs.} {0.50}
+
+\cvskill{Git} {2.5+ yrs.} {0.50}
+
+\cvskill{\LaTeX} {1.5+ yrs.} {0.30}
+\vfill\null
+%%%%
+
+%%%%
+\cvsectionsmall{Frameworks}
+
+\cvskill{Biopython} {2.5+ yrs.} {0.50}
+
+\cvskill{Tidyverse} {1.5+ yrs.} {0.30}
+
+\cvskill{Tidymodels} {1.5+ yrs.} {0.30}
+
+\cvskill{Numpy} {6+ mos.} {0.10}
+
+\cvskill{Pandas} {6+ mos.} {0.10}
+
+\cvskill{Django} {6- mos.} {0.06}
+%%%%
+
 
 %%%%
 \cvsectionsmall{Areas of expertise}
 
-\cvskill{System administration/ \newline Linux} {3+ yrs.} {0.8}
+\cvskill{System administration/ \newline Linux} {3+ yrs.} {0.6}
 
-\cvskill{Bioinformatics} {2.5+ yrs.} {0.72}
+\cvskill{Bioinformatics} {2.5+ yrs.} {0.5}
 
-\cvskill{Data science} {2+ yrs.} {0.64}
+\cvskill{Data science} {2+ yrs.} {0.4}
 
-\cvskill{Low level programming/ \newline Assembly} {6 mos.} {0.20}
+\cvskill{Low level programming/ \newline Assembly} {6+ mos.} {0.10}
 %%%%
+
 
 %%%%
 \cvsectionsmall{Languages}
@@ -493,21 +538,10 @@
 \cvskill{Portuguese} {Native} {1}
 
 \cvskill{English} {B1} {0.6}
+
+\cvskill{Spanish} {B1} {0.6}
 %%%%
 
-% %%%%
-% \cvsectionsmall{Frameworks}
-
-% \cvskill{Biopython} {2.5+ yrs.} {0.48}
-
-% \cvskill{Tidyverse} {1.5+ yrs.} {0.48}
-
-% \cvskill{Tidymodels} {1.5+ yrs.} {0.48}
-
-% \cvskill{Numpy} {6+ mos.} {0.16}
-
-% \cvskill{Pandas} {6+ mos.} {0.16}
-% %%%%
 %%%%%%%%
 
 % \newpage
@@ -544,16 +578,43 @@
 % 	\hyperlink{https://github.com/cardosaum/ufrj-comp1-senha}{\textbf{Mastermind}}\\ Remake of the game \textit{Mastermind} in C.\\
 
 
-% % \cvsection{Interests}
+\cvsection{Interests}
 
-% % \icontext{CaretRight}{12}{Guitarist}{black}\\[6pt]
-% % \icontext{CaretRight}{12}{DIY}{black}\\[6pt]
-% % \icontext{CaretRight}{12}{Fitness}{black}\\[6pt]
-% % \icontext{CaretRight}{12}{Cooking}{black}\\[6pt]
-% % \icontext{CaretRight}{12}{Travel}{black}\\[6pt]
+\icontext{CaretRight}{12}{Bioinformatics/\\Computational Biology}{black}\\[6pt]
+\icontext{CaretRight}{12}{Artificial Intelligence}{black}\\[6pt]
+\icontext{CaretRight}{12}{Protein Folding}{black}\\[6pt]
+\icontext{CaretRight}{12}{Open Source}{black}\\[6pt]
+\icontext{CaretRight}{12}{Embedded Systems}{black}\\[6pt]
+
+% \vfill
+% \mbox{}
+% \vfill
+% \mbox{}
+% \vfill
+% \mbox{}
+% \vfill
+% \mbox{}
+% \vfill
+% \mbox{}
+% \vfill
+% \mbox{}
+% \vfill
+% \mbox{}
+% \vfill
+% \mbox{}
+% \vfill
+% \mbox{}
+% \vfill
+% \mbox{}
+% \vfill
+% \mbox{}
+% \vfill
+% \mbox{}
+% \vfill
+% \mbox{}
 
 
-% %\cvqrcode{0.3}
+% \cvqrcode{0.3}
 
 \end{leftcolumn}
 \begin{rightcolumn}
@@ -594,7 +655,7 @@
 
 
 \cvevent
-{01/2021 - today}
+{03/2021 - today}
 	{Computer Science | B.Sc. student}
 	{University of Brasília - UnB}
 	{I aced all my exams and projects until now.\\[5]GPA: 5/5}
@@ -602,16 +663,16 @@
 	\vfill\null
 
 
-% \cvevent
-% {01/2020 - 12/2020}
-% 	{Computer Science | B.Sc. student}
-% 	{Federal University of Rio de Janeiro - UFRJ}
-% 	{Due to the pandemic I opted to move from Rio back to Brasília.\\[5]GPA: 2.9/5}
-% 	\vfill\null
+\cvevent
+{01/2020 - 03/2021}
+	{Computer Science | B.Sc. student}
+	{Federal University of Rio de Janeiro - UFRJ}
+	{Due to the pandemic I opted to move from Rio back to Brasília.\\[5]GPA: 2.9/5}
+	\vfill\null
 
 	
 \cvevent
-{01/2019 - 12/2020}
+{01/2019 - 12/2019}
 	{Biotechnology | B.Sc. student}
 	{University of Brasília - UnB}
 	{I had the opportunity to internship in UnB's Bioinformatics and Immunology
@@ -628,21 +689,58 @@
 {01/2019 - today}
 	{\hyperlink{https://github.com/cardosaum/attila}{\textbf{ATTILA - AutomaTed Tool For Immunoglobulin}}}
 	{University of Brasília - UnB}
-	{ATTILA is an open source project that analises phage display libraries in order to assess monoclonal antibody enrichment. Doing this, the software is able to predict which antibodies can more effectively bind to target molecules. Doing this, ATTILA becomes a usefull tool to scientists working on vaccine development.}
+	{ATTILA is an open source project that analises phage display libraries in
+    order to assess monoclonal antibody enrichment. Doing this, the software is
+    able to predict which antibodies can more effectively bind to target
+    molecules. Doing this, ATTILA becomes a usefull tool to scientists working
+    on vaccine development.} \vfill\null
+
+  \cvevent {01/2019 - today}
+  {\hyperlink{https://github.com/cardosaum/cdr3-parser}{\textbf{cdr3-parser}}}
+  {University of Brasília - UnB}
+  {\textbf{cdr3-parser} is a command line program
+    written in \texttt{Rust} to convert intermediate output files generated from
+    ATTILA into \texttt{csv} files containing statistics about VH-CDR3 regions
+    presented in the input file. \textbf{cdr3-parser} leverages \texttt{Rust}'s
+    thread-safe capabilities to parse the file in the most efficiente way
+    possible using all threads available in the UnB's Bioinformatics laboratory
+    server.} \vfill\null
+
+
+\cvevent
+{03/2021 - 05/2021}
+	{\hyperlink{https://github.com/cardosaum/isc-lolo-game}{\textbf{The Adventures of Lolo}}}
+	{University of Brasília - UnB}
+	{Remake of the game \textit{The Adventures of Lolo} in \texttt{RISC-V Assembly}.}
 	\vfill\null
 
-% \cvevent
-% {03/2021 - 05/2021}
-% 	{\hyperlink{https://github.com/cardosaum/isc-lolo-game}{\textbf{The Adventures of Lolo}}}
-% 	{University of Brasília - UnB}
-% 	{In this project I recreated the game \textit{The Adventures of Lolo} using RISC-V assembly.}
-% 	\vfill\null
+
+\cvevent
+{02/2021 - 03/2021}
+	{\hyperlink{https://github.com/cardosaum/ufrj-comp1-senha}{\textbf{Mastermind}}}
+	{Federal University of Rio de Janeiro - UFRJ}
+	{Remake of the game \textit{Mastermind} in \texttt{C}.}
+  \vfill\null
+
+\cvevent
+{08/2020}
+	{\hyperlink{https://cardosaum.shinyapps.io/Matheus-Cardoso-DDP-JHU-Week4}{\textbf{Brazilian Students' Performance on ENEM}}}
+	{Johns Hopkins Bloomberg School of Public Health}
+	{A data visualization project showing the performance of Brazilian students applying to a bachelors of science at Universidade de São Paulo (USP), one of the best universities in Brazil.}
+  \vfill\null
+
+\cvevent
+{08/2020}
+	{\hyperlink{https://cardosaum.shinyapps.io/WordPredictor_Final_Project_JHU_Matheus_C}{\textbf{Word Predictor Model}}}
+	{Johns Hopkins Bloomberg School of Public Health}
+	{A web application powered by a machine learning model able to predict the next word in a sentence.}
+  \vfill\null
 
 
 \cvsection{Awards \& Certificates}
 
 \cvevent
-{03/2020 - 09/2020}
+{01/2020 - 09/2020}
 	{\hyperlink{https://www.coursera.org/account/accomplishments/specialization/certificate/JTYMU3V78XWZ}{\textbf{Data Science Specialization}}}
 	{Johns Hopkins Bloomberg School of Public Health}
 	{}
@@ -662,7 +760,22 @@
 	{Awarded by the Brazilian Ministry of Education as one of the top 1000 most talented students in the country in the year of 2019.}
 	\vfill\null
 
+\cvevent
+{2019}
+	{Hackathon NASA Space Apps BSB}
+	{NASA}
+	{Awarded as 5th out of 60+ teams in the Brazil's Midwest regional phase.}
+	\vfill\null
 
+
+% \cvsection{Service}
+
+% \cvevent
+% {2019}
+% 	{CPA}
+% 	{NASA}
+% 	{Awarded as 5th out of 60+ teams in the Brazil's Midwest regional phase.}
+% 	\vfill\null
 
 % \cvevent
 % {03/2020 - 09/2020}
@@ -681,24 +794,32 @@
 % \end{itemize}
 
 % % hofixes to create fake-space to ensure the whole height is used
-% \mbox{}
-% \vfill
-% \mbox{}
-% \vfill
-% \mbox{}
-% \vfill
-% \mbox{}
-% \vfill
-% \mbox{}
-% \vfill
-% \mbox{}
-% \vfill
-% \mbox{}
+\mbox{}
+\vfill
+\mbox{}
+\vfill
+\mbox{}
+\vfill
+\mbox{}
+\vfill
+\mbox{}
+\vfill
+\mbox{}
+\vfill
+\mbox{}
+\vfill
+\mbox{}
+\vfill
+\mbox{}
+\vfill
+\mbox{}
+\vfill
+\mbox{}
 
 
-% Lorem, \today     \hspace{1cm}   \hrulefill
+São Paulo, \today \hspace{1cm} \hrulefill
 
-% \hspace*{30mm}\phantom{Lorem, \today }Matheus Cardoso de Souza
+\hspace*{30mm}\phantom{Lorem, \today }Matheus Cardoso de Souza
 
 \end{rightcolumn}
 \end{paracol}
